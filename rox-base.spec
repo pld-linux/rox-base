@@ -11,7 +11,6 @@ PreReq:		sh-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 Base package needed to run ROX-Filer.
