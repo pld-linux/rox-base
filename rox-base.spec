@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{name}-%{version}.tgz
 URL:		http://rox.sourceforge.net/
 PreReq:		sh-utils
+BuildArch:  noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
