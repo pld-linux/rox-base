@@ -1,28 +1,26 @@
 Summary:	ROX-Filer's base-package
-Summary(pl):	Podstawowy pakiet ROX-Filer'a
+Summary(pl):	Podstawowy pakiet ROX-Filera
 Name:		rox-base
 Version:	1.0.0
 Release:	1
-License:	GPL (?)
+License:	GPL
 Group:		X11/Applications
 Group(de):	X11/Applikationen
 Group(pl):	X11/Aplikacje
-Source0:	%{name}-%{version}.tgz
-BuildRequires:	automake autoconf
+Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{name}-%{version}.tgz
+URL:		http://rox.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 
 %description
-Base package needed to run ROX-Filer
+Base package needed to run ROX-Filer.
 
 %description -l pl
-Pakiet konieczny do uruchomienia ROX-Filer'a
+Pakiet konieczny do uruchomienia ROX-Filera.
 
 %prep -q
 %setup -q
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
