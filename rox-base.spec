@@ -5,12 +5,11 @@ Version:	1.0.2
 Release:	4
 License:	GPL
 Group:		X11/Applications
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{name}-%{version}.tgz
+Source0:	http://dl.sourceforge.net/rox/%{name}-%{version}.tgz
 URL:		http://rox.sourceforge.net/
 PreReq:		sh-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Base package needed to run ROX-Filer.
