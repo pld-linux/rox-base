@@ -8,7 +8,7 @@ Group:		X11/Applications
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{name}-%{version}.tgz
 URL:		http://rox.sourceforge.net/
 PreReq:		sh-utils
-BuildArch:  noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -34,8 +34,6 @@ install Choices/MIME-info/{Standard,gnome-vfs.mime} \
 install Choices/MIME-types/{application_postscript,text} \
 	$RPM_BUILD_ROOT%{_datadir}/Choices/MIME-types
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -44,7 +42,7 @@ test -h %{_pixmapsdir}/rox/MIME-icons || rm -rf %{_pixmapsdir}/rox/MIME-icons
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz
+%doc README
 %dir %{_datadir}/Choices
 %{_datadir}/Choices/MIME-icons
 %{_datadir}/Choices/MIME-info
