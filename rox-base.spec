@@ -6,6 +6,7 @@ Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/rox/%{name}-%{version}.tgz
+# Source0-md5:	46de53c01c6ccea7f3467ce7e37717cc
 URL:		http://rox.sourceforge.net/
 PreReq:		sh-utils
 BuildArch:	noarch
