@@ -2,7 +2,7 @@ Summary:	ROX-Filer's base-package
 Summary(pl):	Podstawowy pakiet ROX-Filera
 Name:		rox-base
 Version:	1.0.2
-Release:	4
+Release:	5
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/rox/%{name}-%{version}.tgz
