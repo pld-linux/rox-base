@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{name}-%{version}.tgz
 URL:		http://rox.sourceforge.net/
+Prereq:		sh-utils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -38,7 +39,7 @@ gzip -9nf README
 rm -rf $RPM_BUILD_ROOT
 
 %pre
-test -h %{_datadir}/Choices/MIME-icons || rm -f %{_datadir}/Choices/MIME-icons
+test -h %{_datadir}/Choices/MIME-icons || rm -rf %{_datadir}/Choices/MIME-icons
 
 %files
 %defattr(644,root,root,755)
