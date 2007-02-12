@@ -1,5 +1,5 @@
 Summary:	ROX-Filer's base-package
-Summary(pl.UTF-8):   Podstawowy pakiet ROX-Filera
+Summary(pl.UTF-8):	Podstawowy pakiet ROX-Filera
 Name:		rox-base
 Version:	1.0.2
 Release:	5
