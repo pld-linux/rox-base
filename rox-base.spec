@@ -1,5 +1,5 @@
 Summary:	ROX-Filer's base-package
-Summary(pl):	Podstawowy pakiet ROX-Filera
+Summary(pl.UTF-8):   Podstawowy pakiet ROX-Filera
 Name:		rox-base
 Version:	1.0.2
 Release:	5
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Base package needed to run ROX-Filer.
 
-%description -l pl
+%description -l pl.UTF-8
 Pakiet konieczny do uruchomienia ROX-Filera.
 
 %prep
